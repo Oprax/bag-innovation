@@ -1,0 +1,24 @@
+.txt-justify {
+	text-align: justify;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.img-justify {
+	width: 100%;
+}
+
+.bluePerso {
+	color: #2E64FE !important;
+}
+
+.ui.menu[class*="top attached"] {
+	margin-top: 0;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
