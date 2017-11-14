@@ -22,3 +22,43 @@
 	min-height: 400px;
 	background: transparent;
 }
+
+.slider-prev,
+.slider-next
+{
+	font-size: 0;
+	line-height: 0;
+
+	position: absolute;
+	top: 50%;
+
+	display: block;
+
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+
+	cursor: pointer;
+
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+.slider-prev
+{
+	left: -30px;
+	z-index: 100;
+}
+
+.slider-next
+{
+	right: -30px;
+	z-index: 100;
+}
+
+.el-center {
+	margin: auto !important;
+}
